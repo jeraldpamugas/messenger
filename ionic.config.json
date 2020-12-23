@@ -1,0 +1,7 @@
+{
+  "name": "lawChoice",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
