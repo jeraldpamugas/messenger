@@ -22,14 +22,12 @@ const MessageContainer: React.FC<ContainerProps> = () => {
             </div>
             <div style={{ overflowX: "hidden" }} className="card-body">
               <IonButton
-                class="btn btn-primary mt-1"
                 style={{ width: "100%" }}
                 routerLink="/about/Marie"
               >
                 Jerald
               </IonButton>
               <IonButton
-                class="btn btn-primary mt-1"
                 style={{ width: "100%" }}
                 routerLink="/about/Jerald"
               >

@@ -14,7 +14,7 @@ import React from "react";
 const About: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader class="ion-no-border">
+      <IonHeader class="ion-no-border border-bottom">
         <IonToolbar>
           <IonButtons slot="start">
             <IonBackButton />
@@ -71,7 +71,7 @@ const About: React.FC = () => {
       <IonFooter>
         <IonToolbar>
           <IonTitle class="ion-text-center ion-no-padding">
-            <div className="input-group mb-3 mt-3 pt-2">
+            <div className="input-group pt-2">
               <div style={{ height: "45px" }} className="input-group-prepend">
                 {/* <label id="customFileLabel" for="customFile"> */}
                 <label id="customFileLabel">+</label>
@@ -79,7 +79,7 @@ const About: React.FC = () => {
               <input
                 type="text"
                 id="messageInput"
-                className="form-control ml-2 mr-2"
+                className="form-control ml-1 mr-1"
                 placeholder="message here..."
                 style={{ borderRadius: "10px", width: "80px" }}
               />
